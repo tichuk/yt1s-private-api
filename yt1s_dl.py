@@ -16,13 +16,13 @@ def convert_res(resolution):
 
     return res
 
-def ext_video_id(url):
+def ext_video_id(video_url):
     fo = "https://youtu.be/"
     foo = "https://youtube.com/watch?v="
 
-    if fo in url:        video_id = url.replace(fo, '')
-    elif foo in url:     video_id = url.replace(foo, '')
-    else:                video_id = None
+    if fo in video_url:        video_id = video_url.replace(fo, '')
+    elif foo in video_url:     video_id = video_url.replace(foo, '')
+    else:                      video_id = None
 
     return video_id
 
@@ -46,8 +46,3 @@ def ext_dl_link(video_id, video_url, res):
     video_dl_link = video_dl_json["dlink"]
 
     return video_dl_link
-
-def save_video(link, filename):
-    try: response = requests.get(link, allow_redirects=True)
-    except: response = requests.get(link, allow_redirects=True, verify=False)
-    open("db/" + filename, 'wb').write(response.content)
