@@ -19,8 +19,8 @@ Downlaod the latest repository using git:
 from yt1s_dl import ext_dl_link
 from yt1s_dl import ext_video_id
 
-video_url = "https://youtu.be/rUWxSEwctFU" # <- YOUR VIDEO URL HERE
-res = "1080p" # <- DESIRED RESOLUTION HERE
+video_url = "https://youtu.be/rUWxSEwctFU" # <- your video url here
+res = "1080p" # <- desired resolution here
 
 video_id = ext_video_id(video_url)
 
