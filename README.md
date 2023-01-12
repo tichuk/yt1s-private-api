@@ -5,9 +5,9 @@ A Small Python code that wraps free unauthenticated api from [yt1s.com](https://
 
 ## Install
 
-Install requests and json using pip:
+Install requests using pip:
 
-``pip install requests json``
+``pip install requests``
 
 Downlaod the latest repository using git:
 
