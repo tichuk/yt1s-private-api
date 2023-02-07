@@ -11,7 +11,7 @@ Install requests using pip:
 
 Downlaod the latest repository using git:
 
-``git clone https://github.com/tichuk/yt1s-private-api``
+``wget https://raw.githubusercontent.com/tichuk/yt1s-private-api/main/yt1s_dl.py``
 
 ### Example Usage
 
