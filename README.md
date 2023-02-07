@@ -9,7 +9,7 @@ Install requests using pip:
 
 ``pip install requests``
 
-Downlaod the latest module using git:
+Downlaod the latest module using wget:
 
 ``wget https://raw.githubusercontent.com/tichuk/yt1s-private-api/main/yt1s_dl.py``
 
