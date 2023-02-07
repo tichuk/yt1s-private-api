@@ -19,8 +19,8 @@ Downlaod the latest module using wget:
 from yt1s_dl import ext_dl_link
 from yt1s_dl import ext_video_id
 
-video_url = "https://youtu.be/rUWxSEwctFU" # <- YOUR VIDEO URL
-res = "1080p" # <- DESIRED RESOLUTION (1080p, 720p, 480p, 360p, 240p, 144p, auto)
+video_url = "https://youtu.be/rUWxSEwctFU" # <- video url
+res = "1080p" # <- resolution (1080p, 720p, 480p, 360p, 240p, 144p, auto)
 
 video_id = ext_video_id(video_url)
 
