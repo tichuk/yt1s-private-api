@@ -25,6 +25,16 @@ res = "auto" # <- resolution (1080p, 720p, 480p, 360p, 240p, 144p, auto)
 video_id = ext_video_id(video_url)
 
 print(ext_dl_link(video_id, video_url, res))
+
+""" common errors
+
+1. Recheck if the resolution you are trying to retrieve the download link for is available or not 
+   (you can always use auto for best quality)
+
+2. You can always declare "video_id" manually it's last few keywords after your url ("7gkw5skMxVs" in this case)
+
+"""
+
 ```
 
 ## Disclaimer
