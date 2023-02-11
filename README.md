@@ -24,7 +24,8 @@ res = "auto" # <- resolution (1080p, 720p, 480p, 360p, 240p, 144p, auto)
 
 video_id = ext_video_id(video_url)
 
-print(ext_dl_link(video_id, video_url, res))
+dl_link = ext_dl_link(video_id, video_url, res)
+print(dl_link)
 
 """ common errors
 
